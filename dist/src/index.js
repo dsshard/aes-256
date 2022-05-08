@@ -8,7 +8,7 @@ const crypto_1 = __importDefault(require("crypto"));
 class Aes256 {
     constructor(salt, iv) {
         this.salt = salt;
-        this.iv = iv;
+        this.iv = iv || Buffer.from('52f12fd38a0a96408f0ec69bec771eb9', 'hex');
     }
     encrypt(text, password) {
         const key = crypto_1.default.scryptSync(password, this.salt, 32);
