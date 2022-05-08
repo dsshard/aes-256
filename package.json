@@ -1,6 +1,6 @@
 {
   "name": "@coxy/aes-256",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple wrapper for aes256",
   "author": "Steven Green <dsshard@gmail.com>",
   "license": "MIT",
