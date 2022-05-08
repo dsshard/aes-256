@@ -1,0 +1,23 @@
+{
+  "name": "@coxy/aes-256",
+  "version": "1.0.0",
+  "description": "Simple wrapper for aes256",
+  "author": "Steven Green <dsshard@gmail.com>",
+  "license": "MIT",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.23",
+    "@typescript-eslint/eslint-plugin": "5.17.0",
+    "@typescript-eslint/parser": "5.17.0",
+    "eslint": "7.32.0",
+    "eslint-config-standard": "16.0.3",
+    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "6.0.0",
+    "typescript": "4.6.3"
+  }
+}
